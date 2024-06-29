@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    
+    <div class="wheelAndText">
+        <div class="wheelAndBtn">
+            <div class="wheel">
+                <canvas class="" id="canvas" width="400" height="400"></canvas>
+            <div class="center-circle" id="circleCenter" onclick="openWinner()">
+                <div class="triangle"></div>
+            </div>
+            </div>
+            <div class="btn">
+            <button class="spnBtn" onclick="spin()">Spin it!</button>
+        </div>
+        </div>
+        <div class="names">
+            <p class="caption">Add Names</p>
+            <div class="inputArea" onkeypress="createWheel()">
+                <textarea spellcheck ="false" rows="20" cols="30" >
+Ibrahim
+Jasim
+Jisan
+Teebro
+Rifat</textarea>
+            </div>
+            <div class="" id="winnerBox">
+                <div class="crossBtn">
+                    <button onclick="closeWinner()">X</button>
+                </div>
+                <p id="winner">
+                </p>
+            </div>
+        </div>
+    </div>
+
+      
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

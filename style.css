@@ -1,0 +1,111 @@
+body{
+    background-color: #fff;
+}
+.wheelAndText{
+    padding-top: 100px;
+    display:flex;
+    justify-content: center;
+    height: auto;
+}
+.wheelAndBtn{
+    margin-right: 0px;
+}
+.wheel{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-color: #fff;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.center-circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.triangle{
+    
+	border-top: 20px solid transparent;
+	border-right: 40px solid grey;
+	border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 50%;
+    right: -250%;
+    transform: translateY(-50%);
+}
+.names{
+    justify-content: center;
+    text-align: center;
+    padding-left: 70px;
+    width: 400px;
+}
+.caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.inputArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align:left;
+    height: 250px;
+}
+textArea{
+    caret-color: black;
+    color:black;
+    border-radius: 3%;
+    padding-left: 24px;
+    padding-top: 24px;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+}
+.btn{
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+.spnBtn{
+    height: 45px;
+    width: 170px;
+    border-radius: 8px;
+    background-color: blue;
+    font-size: 20px;
+    color: #fff;
+}
+#winnerBox{
+    display:none;
+    text-align: center;
+    margin-top: 115px;
+    color: #fff;
+    background-color: rgb(39, 36, 36);
+    height: 125px;
+    width: 530px;
+    border-radius: 13px;
+}
+#winner{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+.crossBtn{
+    justify-content: right;
+    text-align: right;
+}
+.crossBtn button{
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: rgb(39, 36, 36);
+    border-radius: 50%;
+    border: 1px solid fff;
+}
